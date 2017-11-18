@@ -18,4 +18,4 @@ Success:
 
 Work in progress: 
 1) Remove double entry data
-2) Add more ZIP codes
+2) Add more ZIP codes (https://www.phaster.com/zip_code.html) 
