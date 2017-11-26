@@ -81,4 +81,12 @@ zipcodes = []
 
 
 zipcodes = zipcodes + list(range(1111, 100000))
-print (zipcodes)
+
+for i in range(0,len(zipcodes)):
+	if len(str(zipcodes[i]))<5:
+		zipcodes[i] = "0"+str(zipcodes[i])
+	else: 
+		zipcodes[i] = str(zipcodes[i])
+
+
+print (zipcodes) 
